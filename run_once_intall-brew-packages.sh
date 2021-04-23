@@ -1,10 +1,15 @@
 #!/bin/bash
 
-if ! [ -x "$(command -v brew)" ]; then
-  echo "installing homebrew"
-  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+
+# Check if Homebrew is installed
+which -s brew
+if [[ $? != 0 ]] ; then
+    # Install Homebrew
+    ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+else
+    brew update
 fi
 
-
-echo "installing from Brewfile"
-brew bundle --file ./Brewfile
+echo "🍻 running brew bundle"
+  brew bundle | sed 's/^/  → /'
+echo
