@@ -82,6 +82,7 @@ cask "spotify"
 cask "telegram"
 cask "visual-studio-code"
 cask "zoom"
+cash "vlc"
 
 mas "Amphetamine", id: 937984704
 mas "GarageBand", id: 682658836

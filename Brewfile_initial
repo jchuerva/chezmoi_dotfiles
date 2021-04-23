@@ -35,6 +35,7 @@ cask "rectangle"
 cask "zoom"
 cask "kap"
 cask "appcleaner"
+cash "vlc"
 
 mas "Amphetamine", id: 937984704
 mas "Todoist", id: 585829637
