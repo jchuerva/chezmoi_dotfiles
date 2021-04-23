@@ -1,0 +1,16 @@
+[user]
+	name = Carlos Alarcon
+	email = jchuerva@github.com
+[github]
+	user = jchuerva
+[push]
+	default = simple
+[credential]
+	helper = osxkeychain
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+[core]
+	excludesfile = /Users/jchuerva/.gitignore
