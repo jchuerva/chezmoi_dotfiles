@@ -90,3 +90,4 @@ mas "Keynote", id: 409183694
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "Todoist", id: 585829637
+mas "Lightshot Screenshot", id: 526298438
