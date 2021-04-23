@@ -82,14 +82,10 @@ cask "spotify"
 cask "telegram"
 cask "visual-studio-code"
 cask "zoom"
-cash "vlc"
+cask "vlc"
 
 mas "Amphetamine", id: 937984704
-mas "GarageBand", id: 682658836
-mas "iMovie", id: 408981434
 mas "Instapaper", id: 288545208
-mas "Keynote", id: 409183694
-mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "Todoist", id: 585829637
 mas "Lightshot Screenshot", id: 526298438
