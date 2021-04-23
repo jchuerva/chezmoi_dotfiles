@@ -57,6 +57,7 @@ brew "github/bootstrap/kustomize@3.1"
 brew "github/packages/awssume"
 brew "kyoh86/tap/richgo"
 brew "romkatv/powerlevel10k/powerlevel10k"
+brew "gh"
 
 cask "1password"
 cask "alfred"
