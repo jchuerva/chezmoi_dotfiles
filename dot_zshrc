@@ -84,6 +84,8 @@ plugins=(
   zsh_reload # src to reload
   rails
   osx
+  zsh-syntax-highlighting
+  zsh-autosuggestions
   )
 
 source $ZSH/oh-my-zsh.sh
