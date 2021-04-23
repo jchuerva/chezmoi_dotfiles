@@ -135,3 +135,7 @@ eval "$(direnv hook zsh)"
 #######
 # Node
 eval "$(nodenv init -)"
+
+#######
+# powerlevel10k
+source /usr/local/opt/powerlevel10k/powerlevel10k.zsh-theme
