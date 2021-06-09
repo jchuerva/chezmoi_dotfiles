@@ -126,27 +126,26 @@ alias frm="git ls-files -m | xargs ls -1 2>/dev/null | grep '\.rb$' | xargs rubo
 ########
 # Ruby
 # rbenv
-eval "$(rbenv init -)"
+# eval "$(rbenv init -)"
 
 #######
 # Python
 # pyenv
-eval "$(pyenv init -)"
+# eval "$(pyenv init -)"
 
 #######
 # Direnv
-eval "$(direnv hook zsh)"
+# eval "$(direnv hook zsh)"
 
 #######
 # Mysql gem
 # export LIBRARY_PATH=$LIBRARY_PATH:/usr/local/opt/openssl/lib/
-export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"
-
+# export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"
 
 #######
 # Node
-eval "$(nodenv init -)"
+# eval "$(nodenv init -)"
 
 #######
 # powerlevel10k
-source /usr/local/opt/powerlevel10k/powerlevel10k.zsh-theme
+# source /usr/local/opt/powerlevel10k/powerlevel10k.zsh-theme
