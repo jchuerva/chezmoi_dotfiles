@@ -21,3 +21,16 @@ fi
 script_dir="$(cd -P -- "$(dirname -- "$(command -v -- "$0")")" && pwd -P)"
 # exec: replace current process with chezmoi init
 exec "$chezmoi" init --apply "--source=$script_dir"
+
+# copies the ZSH environment file
+cp -rf .zshrc ~/.zshrc > /dev/null 2>&1
+
+# copies the PowerLevel10K configuration file
+cp -rf .p10k.zsh ~/.p10k.zsh > /dev/null 2>&1
+
+# loads the source
+source ~/.zshrc
+
+echo "\e[32mInstallation Finished. Exiting. \e[39m\n"
+
+exit 0
