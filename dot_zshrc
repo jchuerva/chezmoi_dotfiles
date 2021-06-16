@@ -88,7 +88,7 @@ plugins=(
   #zsh-autosuggestions
   )
 
-source $ZSH/oh-my-zsh.sh
+# source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
@@ -121,7 +121,7 @@ alias frmgh="git ls-files -m | xargs ls -1 2>/dev/null | grep '\.rb$' | xargs bi
 alias frm="git ls-files -m | xargs ls -1 2>/dev/null | grep '\.rb$' | xargs rubocop -A"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+# [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 ########
 # Ruby
@@ -148,4 +148,4 @@ alias frm="git ls-files -m | xargs ls -1 2>/dev/null | grep '\.rb$' | xargs rubo
 
 #######
 # powerlevel10k
-source /usr/local/opt/powerlevel10k/powerlevel10k.zsh-theme
+# source /usr/local/opt/powerlevel10k/powerlevel10k.zsh-theme
